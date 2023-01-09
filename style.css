@@ -25,6 +25,25 @@ button {
     outline: 0 !important
 }
 
+.d-bloc .panel .a-btn:hover,
+.l-bloc .a-btn:hover,
+.l-bloc .navbar a:hover,
+.l-bloc .navbar-brand:hover,
+.l-bloc a:hover .icon-lg,
+.l-bloc a:hover .icon-md,
+.l-bloc a:hover .icon-sm,
+.l-bloc a:hover .icon-xl,
+.l-bloc h1 a:hover,
+.l-bloc h2 a:hover,
+.l-bloc h3 a:hover,
+.l-bloc h4 a:hover,
+.l-bloc h5 a:hover,
+.l-bloc h6 a:hover,
+.l-bloc p a:hover,
+q {
+    color: #000
+}
+
 .scrollToTop,
 a,
 button {
@@ -49,7 +68,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: url("img/pageload-spinner.gif") center center no-repeat #fff
+    background: url(img/pageload-spinner.gif) center center no-repeat #fff
 }
 
 .bloc {
@@ -112,7 +131,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png") 0 0/280px 280px
+    background: url(img/texture-paper.png) 0 0/280px 280px
 }
 
 .nav>li>.dropdown a,
@@ -219,24 +238,6 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6)
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: #000
 }
 
 .d-bloc .panel .btn-wire,
@@ -626,6 +627,7 @@ h4 {
 
 .cta-hero,
 .ltc-white,
+.tc-white,
 .white {
     color: #fff !important
 }
@@ -738,10 +740,6 @@ h3 {
     background-color: #fc6823
 }
 
-.tc-white {
-    color: #fc6823 !important
-}
-
 .btn-atomic-tangerine {
     background: #fc6823;
     color: #fff !important
@@ -770,19 +768,19 @@ h3 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png")
+    background-image: url(img/dots-bg.png)
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png")
+    background-image: url(img/lines-h2-bg.png)
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-resize.jpg")
+    background-image: url(img/agence-la-panthere-resize.jpg)
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-resize.jpg")
+    background-image: url(img/image-de-presentation-resize.jpg)
 }
 
 @media (max-width:1024px) {
@@ -837,11 +835,6 @@ h3 {
         position: relative
     }
 
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right)
-    }
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -850,9 +843,7 @@ h3 {
 
     .bloc-fill-screen .fill-bloc-bottom-edge,
     .bloc-fill-screen .fill-bloc-top-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right)
+        padding: 0 20px
     }
 }
 
