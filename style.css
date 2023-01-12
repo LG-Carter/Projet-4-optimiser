@@ -629,7 +629,7 @@ h4 {
 .ltc-white,
 .tc-white,
 .white {
-    color: #fff !important;
+    color: #fff !important
 }
 
 .container {
@@ -637,7 +637,7 @@ h4 {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 38px
 }
 
 .hero-bloc-text-sub {
@@ -666,7 +666,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto;
+    margin: auto
 }
 
 .h1 {
